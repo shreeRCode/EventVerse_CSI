@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventVerse</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Event<span>Verse</span></div>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a id="eventLink" href="#">Events</a>
+            <script src="script_home.js"></script>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to <span id="one">Event</span><span>Verse</span></h1>
+        <p>Discover and manage the best events in NITTE!</p>
+        <div class="hero-buttons">
+            <button class="btn-primary">Register as User</button>
+            <button class="btn-secondary">Register as Admin</button>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At EventVerse, we bring together amazing events and unforgettable experiences. Whether you're organizing or attending, we've got you covered!</p>
+    </section>
+   
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="email" placeholder="Your Email" id="email" required>
+            <textarea placeholder="Your Message" id="message" required></textarea>
+            <button type="submit" class="btn-primary">Send</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>© 2025 EventVerse. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

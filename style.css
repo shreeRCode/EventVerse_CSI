@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #343a40;
+  color: white;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.header .logo span {
+  color: #007bff;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color:  #007bff;
+}
+
+.hero h1 span {
+  color: #007bff;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #f8f9fa;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.about, .events, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.events .event-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  margin-top: 30px;
+}
+
+#one{
+  color:#f8f9fa;
+}
+
+
