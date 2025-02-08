@@ -1,16 +1,19 @@
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f8f9fa;
-  color: #212529;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e3eaf4, #eef2f6);
+  color: #2f4777;
+  min-height: 100vh;
 }
+
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #343a40;
+  background-color: #2f4777;
   color: white;
 }
 
@@ -20,7 +23,7 @@ body {
 }
 
 .header .logo span {
-  color: #007bff;
+  color: #0d6efd;
 }
 
 .navbar a {
@@ -31,25 +34,26 @@ body {
 }
 
 .navbar a:hover {
-  color: #007bff;
+  color: #198754;
 }
 
 .btn-primary {
-  background-color: #007bff;
-  color: white;
+  background-color: #0d6efd;
+  color: rgb(187, 186, 186);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: 600;
+  transition: 0.3s;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #0b5ed7;
 }
 
 .btn-secondary {
-  background-color: #6c757d;
+  background-color: #198754;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -59,7 +63,7 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #5a6268;
+  background-color: #145c41;
 }
 
 .hero {
@@ -74,11 +78,11 @@ body {
 
 .hero h1 {
   font-size: 3.5rem;
-  color:  #007bff;
+  color: #0d6efd;
 }
 
 .hero h1 span {
-  color: #007bff;
+  color: #0f683f;
 }
 
 .hero p {
@@ -97,7 +101,7 @@ body {
 }
 
 .events .event-card {
-  background-color: white;
+  background-color: rgb(126, 173, 213);
   border: 1px solid #ddd;
   border-radius: 10px;
   margin: 20px auto;
@@ -118,18 +122,21 @@ body {
   margin: 10px 0;
   border: 1px solid #ddd;
   border-radius: 5px;
+  background-color: #ffffff;
+  color: #2c3e50;
 }
 
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #343a40;
+  background-color: #2f4777;
   color: white;
   margin-top: 30px;
 }
 
-#one{
-  color:#f8f9fa;
+#one {
+  color: #0d6efd;
 }
+
 
 
