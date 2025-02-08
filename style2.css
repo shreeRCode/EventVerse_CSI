@@ -1,12 +1,10 @@
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: rgb(255, 255, 255);
+    color: #2c3e50;
 }
-
 
 .container {
     max-width: 1200px;
@@ -15,15 +13,13 @@ body {
     text-align: center;
 }
 
-
 .container h1 {
     font-size: 2.5rem;
-    color: #007bff;
+    color: #1070ff;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
 
 .event-grid {
     display: flex;
@@ -32,51 +28,60 @@ body {
     gap: 20px;
 }
 
-
 .event-box {
-    background: linear-gradient(135deg, #007bff, #0056b3);
-    color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #1b1f2b, #34495e);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     width: calc(33.33% - 20px);
     text-align: center;
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 25px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
 }
 
 .event-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
 }
-
 
 .event-box h3 {
     font-size: 1.8rem;
-    margin-bottom: 15px;
-    font-weight: 600;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #f8f9fa;
 }
 
 .event-box p {
     font-size: 1.1rem;
-    margin: 10px 0;
-    line-height: 1.5;
+    margin: 12px 0;
+    line-height: 1.6;
+    color: #d1d9e6;
 }
 
-
 .event-box button {
-    background-color: #ffdf00;
-    color: #212529;
+    background-color: #0d6efd;
+    color: white;
     border: none;
-    border-radius: 25px;
-    padding: 12px 25px;
+    border-radius: 30px;
+    padding: 12px 28px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     margin-top: 15px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 }
 
 .event-box button:hover {
-    background-color: #ffbf00;
-    transform: scale(1.05);
+    background-color: #0b5ed7;
+    transform: scale(1.07);
 }
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b1f2b;
+    color: white;
+    margin-top: 40px;
+}
+
